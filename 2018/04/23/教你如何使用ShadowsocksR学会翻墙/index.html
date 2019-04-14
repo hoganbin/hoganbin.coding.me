@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+<script>
+    (function(){
+        if(''){
+            if (prompt('请输入文章密码') !== ''){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+</script>
+    
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+ 
+<script> (function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/0f81ff2f.js","daovoice") 
+ daovoice('init', {
+  app_id: "96f0995d"
+});
+daovoice('update');
+  </script> 
+
+ 
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="翻墙技术," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Hoganbin's Blog" type="application/atom+xml" />
+
+
+
+
+
+
+<meta name="description" content="这里我给出一个链接，特别棒免费SSR帐号分享 ，那么接下来又该如何操作。首先我们前提是要下载安装SSR，云盘下载链接ssr4windows  ，打开上面的账号分享链接，界面如下，这里的SSR翻墙账号每天都有在更新，但我所知道的，其中必有几个是长期都可以使用的，鼠标移到V2RAY节点，右击复制链接。 最后成功翻墙进入谷歌界面如下。如有同学特别想翻墙，此文会对你受益匪浅。同时电脑与手机是可以同步翻墙的">
+<meta name="keywords" content="翻墙技术">
+<meta property="og:type" content="article">
+<meta property="og:title" content="教你如何使用ShadowsocksR学会翻墙">
+<meta property="og:url" content="https://hoganbin.top/2018/04/23/教你如何使用ShadowsocksR学会翻墙/index.html">
+<meta property="og:site_name" content="Hoganbin&#39;s Blog">
+<meta property="og:description" content="这里我给出一个链接，特别棒免费SSR帐号分享 ，那么接下来又该如何操作。首先我们前提是要下载安装SSR，云盘下载链接ssr4windows  ，打开上面的账号分享链接，界面如下，这里的SSR翻墙账号每天都有在更新，但我所知道的，其中必有几个是长期都可以使用的，鼠标移到V2RAY节点，右击复制链接。 最后成功翻墙进入谷歌界面如下。如有同学特别想翻墙，此文会对你受益匪浅。同时电脑与手机是可以同步翻墙的">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/005I3Cc4gy1fqmoosqbnvj311y0gvdis.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/005I3Cc4gy1fqmnihj69nj30ie0dyab4.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/005I3Cc4gy1fqmnqdapwqj30wz09gwf7.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/005I3Cc4gy1fqmnhlrczaj30di08nmxg.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/005I3Cc4gy1fqmniygb2bj30dl08ogly.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/005I3Cc4gy1fqmnjdyvi5j30dn08umxj.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/005I3Cc4gy1fqmnkwf0p2j311v0lc17i.jpg">
+<meta property="og:updated_time" content="2018-05-08T17:06:59.340Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="教你如何使用ShadowsocksR学会翻墙">
+<meta name="twitter:description" content="这里我给出一个链接，特别棒免费SSR帐号分享 ，那么接下来又该如何操作。首先我们前提是要下载安装SSR，云盘下载链接ssr4windows  ，打开上面的账号分享链接，界面如下，这里的SSR翻墙账号每天都有在更新，但我所知道的，其中必有几个是长期都可以使用的，鼠标移到V2RAY节点，右击复制链接。 最后成功翻墙进入谷歌界面如下。如有同学特别想翻墙，此文会对你受益匪浅。同时电脑与手机是可以同步翻墙的">
+<meta name="twitter:image" content="http://ww1.sinaimg.cn/large/005I3Cc4gy1fqmoosqbnvj311y0gvdis.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"输入关键字","hits_empty":"没有找到与文章相关的内容","hits_stats":"${hits}条相关记录，共耗时${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://hoganbin.top/2018/04/23/教你如何使用ShadowsocksR学会翻墙/"/>
+
+
+
+
+  <title>教你如何使用ShadowsocksR学会翻墙 | Hoganbin's Blog</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+   <a href="https://http://hoganbin.coding.me"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+  
+   <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      
+    <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Hoganbin's Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">不忘初心，记录时光，走向成长。</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-address-card"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-guestbook">
+          <a href="/guestbook/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-envelope"></i> <br />
+            
+            留言
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-photo">
+          <a href="/photo/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-image"></i> <br />
+            
+            照片
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-book">
+          <a href="/book/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-book"></i> <br />
+            
+            书影音
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://hoganbin.top/2018/04/23/教你如何使用ShadowsocksR学会翻墙/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Hoganbin">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hoganbin's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">教你如何使用ShadowsocksR学会翻墙</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-23T16:48:27+08:00">
+                2018-04-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+        
+        <span id="busuanzi_container_page_pv">&nbsp;&nbsp;|&nbsp;&nbsp;阅读量 <span 
+          id="busuanzi_value_page_pv"></span> 次</span>
+        
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/翻墙方法/" itemprop="url" rel="index">
+                    <span itemprop="name">翻墙方法</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/04/23/教你如何使用ShadowsocksR学会翻墙/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/04/23/教你如何使用ShadowsocksR学会翻墙/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
+            </span>
+          
+
+          
+            <div class="post-wordcount">
+              
+
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  2
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>这里我给出一个链接，特别棒<a href="https://www.52ssr.cn/" target="_blank" rel="noopener">免费SSR帐号分享</a> ，那么接下来又该如何操作。首先我们前提是要下载安装SSR，云盘下载链接<a href="https://www.qcgzxw.cn/301.html" target="_blank" rel="noopener">ssr4windows</a>  ，打开上面的账号分享链接，界面如下，这里的SSR翻墙账号每天都有在更新，但我所知道的，其中必有几个是长期都可以使用的，鼠标移到V2RAY节点，右击复制链接。</p>
+<p>最后成功翻墙进入谷歌界面如下。如有同学特别想翻墙，此文会对你受益匪浅。同时电脑与手机是可以同步翻墙的，我现在基本上不用百度了，能用谷歌干嘛要用百度呢？</p>
+<p><img src="http://ww1.sinaimg.cn/large/005I3Cc4gy1fqmoosqbnvj311y0gvdis.jpg" alt=""> </p>
+<a id="more"></a>
+<p>1、双击打开<strong>ShadowsocksR-win.7z</strong> 文件，然后把<strong>ShadowsocksR-win.exe</strong> 文件解压到电脑桌面。</p>
+<p>注：Win7用户请使用<strong>ShadowsocksR-dotnet2.0.exe</strong> 文件；</p>
+<p>Win8或Win10用户请使用<strong>ShadowsocksR-dotnet4.0.exe</strong> 文件。</p>
+<p>2、输入本站产品服务提供的 节点地址、连接端口、加密方式选择 aes-256-cfb、连接密码，点击确定，如图：</p>
+<p><img src="http://ww1.sinaimg.cn/large/005I3Cc4gy1fqmnihj69nj30ie0dyab4.jpg" alt=""> </p>
+<p>这里我主要是介绍在你没有账号和密码的情况下又如何免费使用翻墙（<strong>你要是有的话，不花钱买个国外的服务器，这可是要花一笔不菲的资金</strong> ）所以你需要打开上面的免费SSR账号分享链接，界面如下，这里的SSR翻墙账号每天都有更新，但我所知道的，其中必有几个是长期都有用的，鼠标移到V2RAY节点，右击复制链接。</p>
+<p><img src="http://ww1.sinaimg.cn/large/005I3Cc4gy1fqmnqdapwqj30wz09gwf7.jpg" alt=""> </p>
+<p>接下来就是将复制的链接直接导入，在服务器选择刚刚你复制链接的端口。</p>
+<p><img src="http://ww1.sinaimg.cn/large/005I3Cc4gy1fqmnhlrczaj30di08nmxg.jpg" alt=""> </p>
+<p>3、选择 系统代理模式，点击全局模式。</p>
+<p><img src="http://ww1.sinaimg.cn/large/005I3Cc4gy1fqmniygb2bj30dl08ogly.jpg" alt="">  </p>
+<p>4、选择代理规则，点击全局模式。</p>
+<p><img src="http://ww1.sinaimg.cn/large/005I3Cc4gy1fqmnjdyvi5j30dn08umxj.jpg" alt="">  </p>
+<p>5、最后，打开浏览器，访问Google搜索或者Youtube，如果可以访问，证明已经可以正常使用。这是我用谷歌打开的界面，完全可以使用谷歌、facebook与Youtube.</p>
+<p><img src="http://ww1.sinaimg.cn/large/005I3Cc4gy1fqmnkwf0p2j311v0lc17i.jpg" alt=""> </p>
+
+      
+    </div>
+    
+    
+    
+    
+      <div>
+    
+    <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+     
+      </div>
+      
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>分享知识，学会生活，坚持原创！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.png" alt="Hoganbin 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="Hoganbin 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    Hoganbin |  微信公众号【八一考研数学竞赛】
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://hoganbin.top/2018/04/23/教你如何使用ShadowsocksR学会翻墙/" title="教你如何使用ShadowsocksR学会翻墙">https://hoganbin.top/2018/04/23/教你如何使用ShadowsocksR学会翻墙/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" rel="external nofollow" target="_blank">CC BY-NC-ND 4.0</a> 许可协议。转载请注明出处！
+  </li>
+  <li class="post-copyright-license">
+    并保留本声明和上方二维码。感谢您的阅读和支持！
+  </li>
+</ul>
+      </div>
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/翻墙技术/" rel="tag"># 翻墙技术</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/04/20/假如忧伤成为一种愿望/" rel="next" title="假如忧伤成为一种愿望">
+                <i class="fa fa-chevron-left"></i> 假如忧伤成为一种愿望
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/05/02/我与数学建模的故事/" rel="prev" title="我与数学建模的故事">
+                我与数学建模的故事 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+<span class="jiathis_txt">分享到：</span>
+<a class="jiathis_button_fav">收藏夹</a>
+<a class="jiathis_button_copy">复制网址</a>
+<a class="jiathis_button_email">邮件</a>
+<a class="jiathis_button_weixin">微信</a>
+<a class="jiathis_button_qzone">QQ空间</a>
+<a class="jiathis_button_tqq">腾讯微博</a>
+<a class="jiathis_button_douban">豆瓣</a>
+<a class="jiathis_button_share">一键分享</a>
+
+<a href="http://www.jiathis.com/share?uid=2140465" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
+<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+var jiathis_config={
+  data_track_clickback:true,
+  summary:"",
+  shortUrl:false,
+  hideMore:false
+}
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+    <div class="comments" id="comments">
+      <div id="uyan_frame"></div>
+    </div>
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.png"
+                alt="Hoganbin" />
+            
+              <p class="site-author-name" itemprop="name">Hoganbin</p>
+              <p class="site-description motion-element" itemprop="description">既然选择了远方，又何惧风雨兼程</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">20</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">13</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">17</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/settings/profile" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.zhihu.com/people/hoganbin/activities" target="_blank" title="知乎">
+                      
+                        <i class="fa fa-fw fa-align-justify"></i>知乎</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://math.stackexchange.com/" target="_blank" title="MSE">
+                      
+                        <i class="fa fa-fw fa-map"></i>MSE</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://mail.qq.com/cgi-bin/loginpage?autologin=n&errtype=1&clientuin=1358239007&param=&sp=&tfcont=22%20serialization%3A%3Aarchive%205%200%200%204%200%200%200%208%20authtype%201%204%209%20clientuin%2010%201358239007%206%20domain%206%20qq.com%202%20vm%203%20wsk&r=cf819e526de6a1f34ebf7926392a0331" target="_blank" title="邮箱">
+                      
+                        <i class="fa fa-fw fa-envelope-square"></i>邮箱</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://blog.csdn.net/weixin_39892850?ticket=ST-99068-xooVPYDriHZvMjFsjkEg-passport.csdn.net/" target="_blank" title="CSDN">
+                      
+                        <i class="fa fa-fw fa-crosshairs"></i>CSDN</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://weibo.com/5231684748/profile?topnav=1&wvr=6&is_all=1" target="_blank" title="微博">
+                      
+                        <i class="fa fa-fw fa-weibo"></i>微博</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-globe"></i>
+                友情链接
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://www.ruanyifeng.com/home.html" title="阮一峰" target="_blank">阮一峰</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://www.yinwang.org/" title="王银" target="_blank">王银</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://cherryblog.site/" title="cherryblog" target="_blank">cherryblog</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://www.wmathor.com/" title="热爱数学的程序员" target="_blank">热爱数学的程序员</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://blog.icyuyan.net/" title="独孤伶俜的博客" target="_blank">独孤伶俜的博客</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://afeiai.cn/" title="小罗的博客" target="_blank">小罗的博客</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://www.dotcpp.com/" title="C语言网" target="_blank">C语言网</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://io.backrunner.top/" title="技术空间" target="_blank">技术空间</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+          <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=254359&auto=0&height=66"></iframe>
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; 
+
+<span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Hoganbin</span>
+ 
+ <span class="post-meta-divider">|</span>
+<span id="sitetime"> <br></span>
+<script language="javascript">
+  function siteTime(){
+    window.setTimeout("siteTime()", 1000);
+    var seconds = 1000
+    var minutes = seconds * 60
+    var hours = minutes * 60
+    var days = hours * 24
+    var years = days * 365
+    var today = new Date()
+    var todayYear = today.getFullYear()
+    var todayMonth = today.getMonth()
+    var todayDate = today.getDate()
+    var todayHour = today.getHours()
+    var todayMinute = today.getMinutes()
+    var todaySecond = today.getSeconds()
+    var t1 = Date.UTC(2018,3,13,11,00,00)
+    var t2 = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond)
+    var diff = t2-t1
+    var diffYears = Math.floor(diff/years)
+    var diffDays = Math.floor((diff/days)-diffYears*365)
+    var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours)
+    var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes)
+    var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds)
+    document.getElementById("sitetime").innerHTML=" 本站已运行"+diffYears+" 年 "+diffDays+" 天 "+diffHours+" 小时 "+diffMinutes+" 分钟 "+diffSeconds+" 秒<br>"
+  }
+  siteTime()
+
+</script>
+
+
+ <div class="footer-custom">你看得到我打在屏幕上的字，却看不到我落在键盘上的泪</div>
+
+
+<div class="busuanzi-count">
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv" title="访问人数"><i class="fa fa-user"></i><span class="busuanzi-value" id="busuanzi_value_site_uv">&nbsp;</span>人次</span>
+  
+    <span title="总字数"> <i class="fa fa-edit"></i>&ensp;<span class="post-count">博客全站共31.0k字</span>
+    
+    <span class="post-meta-divider">|</span>
+    <span class="site-pv" title="总访问量"><i class="fa fa-eye"></i><span class="busuanzi-value" id="busuanzi_value_site_pv">&nbsp;</span>次</span>
+  
+</div>
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <span class="post-meta-divider"></span>
+
+
+
+
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<!--  
+    <span class="site-uv">
+      <i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      
+    </span>
+
+  
+  -->
+</div>
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+    
+
+    
+      <!-- UY BEGIN -->
+      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2161245"></script>
+      <!-- UY END -->
+    
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'GwtyLTw1Vqh9Y97KIRMNJBrl-gzGzoHsz',
+        appKey: 'cibt8H2bgkTOqn1pUH5v0WxQ',
+        placeholder: '说点什么吗？',
+        avatar:'mm',
+        guest_info:['nick','mail','link'] ,// 评论只需要提供昵称
+        pageSize:'10' || 10,
+    });
+  </script>
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+  
+
+  
+
+
+</body>
+</html>
+
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/love.js"></script>
