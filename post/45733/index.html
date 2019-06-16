@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+<script>
+    (function(){
+        if(''){
+            if (prompt('请输入文章密码') !== ''){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+</script>
+    
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+ 
+<script> (function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/0f81ff2f.js","daovoice") 
+ daovoice('init', {
+  app_id: "96f0995d"
+});
+daovoice('update');
+  </script> 
+
+ 
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="LaTeX,">
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Hoganbin's Blog" type="application/atom+xml">
+
+
+
+
+
+
+<meta name="description" content="第十届全国大学生数学竞赛LaTeX模板 过去一周的数学竞赛已经告一段落，在考前的几次模拟赛题中，八一都是以这个模板给同学们进行试题命题，想必大家看到之后，都很想去学习一番LaTeX技巧，这里我就把自己的源码贴到下面供大家练习，也预祝各位好朋友相聚哈尔滨！本文档的pdf以及tex源码，请点以下链接进行即可下载。">
+<meta name="keywords" content="LaTeX">
+<meta property="og:type" content="article">
+<meta property="og:title" content="第十届全国大学生数学竞赛LaTeX模板">
+<meta property="og:url" content="https://hoganbin.top/post/45733/index.html">
+<meta property="og:site_name" content="Hoganbin&#39;s Blog">
+<meta property="og:description" content="第十届全国大学生数学竞赛LaTeX模板 过去一周的数学竞赛已经告一段落，在考前的几次模拟赛题中，八一都是以这个模板给同学们进行试题命题，想必大家看到之后，都很想去学习一番LaTeX技巧，这里我就把自己的源码贴到下面供大家练习，也预祝各位好朋友相聚哈尔滨！本文档的pdf以及tex源码，请点以下链接进行即可下载。">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-05-08T02:47:45.496Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="第十届全国大学生数学竞赛LaTeX模板">
+<meta name="twitter:description" content="第十届全国大学生数学竞赛LaTeX模板 过去一周的数学竞赛已经告一段落，在考前的几次模拟赛题中，八一都是以这个模板给同学们进行试题命题，想必大家看到之后，都很想去学习一番LaTeX技巧，这里我就把自己的源码贴到下面供大家练习，也预祝各位好朋友相聚哈尔滨！本文档的pdf以及tex源码，请点以下链接进行即可下载。">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"输入关键字","hits_empty":"没有找到与文章相关的内容","hits_stats":"${hits}条相关记录，共耗时${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://hoganbin.top/post/45733/">
+
+
+
+
+  <title>第十届全国大学生数学竞赛LaTeX模板 | Hoganbin's Blog</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+   <a href="https://http://hoganbin.coding.me"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+  
+   <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      
+    <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Hoganbin's Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">不忘初心，记录时光，走向成长。</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-address-card"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-guestbook">
+          <a href="/guestbook/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-envelope"></i> <br>
+            
+            留言
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-photo">
+          <a href="/photo/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-image"></i> <br>
+            
+            照片
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-book">
+          <a href="/book/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-book"></i> <br>
+            
+            书影音
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://hoganbin.top/post/45733/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Hoganbin">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hoganbin's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">第十届全国大学生数学竞赛LaTeX模板</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-11-02T21:43:20+08:00">
+                2018-11-02
+              </time>
+            
+
+            
+
+            
+          </span>
+
+        
+        <span id="busuanzi_container_page_pv">&nbsp;&nbsp;|&nbsp;&nbsp;阅读量 <span id="busuanzi_value_page_pv"></span> 次</span>
+        
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/LaTeX学习/" itemprop="url" rel="index">
+                    <span itemprop="name">LaTeX学习</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/post/45733/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/post/45733/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  2.2k
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  11
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><strong>第十届全国大学生数学竞赛LaTeX模板</strong></p>
+<p>过去一周的数学竞赛已经告一段落，在考前的几次模拟赛题中，八一都是以这个模板给同学们进行试题命题，想必大家看到之后，都很想去学习一番LaTeX技巧，这里我就把自己的源码贴到下面供大家练习，也预祝各位好朋友相聚哈尔滨！本文档的pdf以及tex源码，请点以下链接进行即可下载。</p>
+<a id="more"></a>
+<p>本文档pdf：<a href="CMC.pdf">CMC文档</a>               </p>
+<p>本文档tex：<a href="CMC.tex">CMC源码</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br></pre></td><td class="code"><pre><span class="line">\documentclass[11pt,twoside]&#123;ctexart&#125;</span><br><span class="line">\usepackage&#123;CJKnumb&#125;</span><br><span class="line">\usepackage&#123;amsmath,amssymb&#125;</span><br><span class="line">\usepackage&#123;calc&#125;</span><br><span class="line">\usepackage&#123;intcalc&#125;</span><br><span class="line">\usepackage&#123;ifthen&#125;</span><br><span class="line">\usepackage&#123;zref-user&#125;</span><br><span class="line">\usepackage&#123;zref-lastpage&#125;</span><br><span class="line">\usepackage&#123;makecell&#125;</span><br><span class="line">\usepackage&#123;interfaces-makecell&#125;</span><br><span class="line">\usepackage&#123;dashrule&#125;</span><br><span class="line">\usepackage&#123;parskip&#125;</span><br><span class="line">\usepackage[paperwidth=195mm,paperheight=270mm,left=30mm,right=25mm,top=20mm,bottom=20mm,includefoot]&#123;geometry&#125;</span><br><span class="line">\usepackage&#123;enumerate&#125;</span><br><span class="line">\usepackage&#123;fancyhdr&#125;</span><br><span class="line">\usepackage&#123;tcolorbox&#125;</span><br><span class="line">\usepackage&#123;graphicx&#125;</span><br><span class="line">\pagestyle&#123;fancy&#125;</span><br><span class="line"></span><br><span class="line">%用到的长度变量</span><br><span class="line">\newlength&#123;\wot&#125;</span><br><span class="line">\newlength&#123;\wol&#125;</span><br><span class="line">\newlength&#123;\gmw&#125;</span><br><span class="line">\newlength&#123;\dl&#125;</span><br><span class="line"></span><br><span class="line">%长度变量的初始值</span><br><span class="line">\settowidth&#123;\wot&#125;&#123;复核人&#125;</span><br><span class="line">\setlength&#123;\wol&#125;&#123;0.3pt&#125;</span><br><span class="line">\setlength&#123;\gmw&#125;&#123;6em&#125;</span><br><span class="line">\setlength&#123;\dl&#125;&#123;10em&#125;</span><br><span class="line"></span><br><span class="line">%页眉设置开始</span><br><span class="line">\renewcommand&#123;\headrulewidth&#125;&#123;0pt&#125;</span><br><span class="line"></span><br><span class="line">%装订线开始</span><br><span class="line">\fancyheadoffset[OL,ER]&#123;\gmw&#125;</span><br><span class="line">\fancyhead[OL]&#123;</span><br><span class="line">\ifnum\intcalcMod&#123;\value&#123;page&#125;&#125;&#123;4&#125;=1</span><br><span class="line">\rotatebox&#123;90&#125;</span><br><span class="line">&#123;\begin&#123;minipage&#125;&#123;1.1\textheight&#125;</span><br><span class="line">\begin&#123;center&#125;</span><br><span class="line">省市：\rule[-.2ex]&#123;\dl&#125;&#123;\wol&#125; 学校：\rule[-.2ex]&#123;\dl&#125;&#123;\wol&#125;  姓名：\rule[-.2ex]&#123;\dl&#125;&#123;\wol&#125; 准考证号：\rule[-.2ex]&#123;\dl&#125;&#123;\wol&#125;\\</span><br><span class="line">\tiny \hdashrule[-3ex]&#123;\textheight&#125;&#123;\wol&#125;&#123;3pt&#125;\\[\smallskipamount]</span><br><span class="line">\makebox[0.6\textheight][s]&#123;装订线内不要答题&#125;\\[-3\smallskipamount]</span><br><span class="line">\hdashrule[-3ex]&#123;\textheight&#125;&#123;\wol&#125;&#123;3pt&#125;</span><br><span class="line">\end&#123;center&#125;</span><br><span class="line">\end&#123;minipage&#125; &#125;</span><br><span class="line">\fi</span><br><span class="line">&#125;</span><br><span class="line">\fancyhead[ER]&#123;</span><br><span class="line">\ifnum\intcalcMod&#123;\value&#123;page&#125;&#125;&#123;4&#125;=0</span><br><span class="line">\rotatebox&#123;-90&#125;</span><br><span class="line">&#123;\begin&#123;minipage&#125;&#123;1.1\textheight&#125;</span><br><span class="line">\begin&#123;center&#125;</span><br><span class="line">\tiny \hdashrule[-3ex]&#123;\textheight&#125;&#123;\wol&#125;&#123;3pt&#125;\\[\smallskipamount]</span><br><span class="line">\makebox[0.6\textheight][s]&#123;装订线内不要答题&#125;\\[-3\smallskipamount]</span><br><span class="line">\hdashrule[-3ex]&#123;\textheight&#125;&#123;\wol&#125;&#123;3pt&#125;</span><br><span class="line">\end&#123;center&#125;</span><br><span class="line">\end&#123;minipage&#125; &#125;</span><br><span class="line">\fi</span><br><span class="line">&#125;</span><br><span class="line">%装订线结束</span><br><span class="line">%页眉设置结束</span><br><span class="line"></span><br><span class="line">%页脚设置开始</span><br><span class="line">\renewcommand&#123;\footrulewidth&#125;&#123;\wol&#125;</span><br><span class="line">\fancyfoot[C]&#123;\large&#123;&#123;\xingkai 微信公众号之数学的情怀&#125;\qquad 共\zpageref&#123;LastPage&#125;页\quad 第\thepage 页&#125;&#125;</span><br><span class="line">\newcounter&#123;ns&#125;</span><br><span class="line">\newcounter&#123;ts&#125;</span><br><span class="line">\newcounter&#123;nq&#125;</span><br><span class="line">\newcommand&#123;\wns&#125;&#123;\stepcounter&#123;ns&#125;\CJKnumber&#123;\thens&#125;、&#125;</span><br><span class="line">\newcommand&#123;\wq&#125;&#123;\stepcounter&#123;nq&#125;\thenq.&#125;</span><br><span class="line"></span><br><span class="line">%大题前计分表格</span><br><span class="line">\newcommand&#123;\tbs&#125;&#123;\begin&#123;tabular&#125;&#123;|c|c|c|&#125;\hline \makebox[\wot]&#123;得分&#125;&amp;\makebox[\wot]&#123;评卷人&#125;&amp;\makebox[\wot]&#123;复核人&#125;\\ \hline</span><br><span class="line"> &amp; &amp;\\ \hline\end&#123;tabular&#125;&#125;</span><br><span class="line"></span><br><span class="line">%排版大题前计分表格,序号,题型,大题说明</span><br><span class="line">\newcommand&#123;\ws&#125;[2]&#123;\raisebox&#123;-1ex&#125;&#123;\begin&#123;minipage&#125;[b]&#123;4.6\wot&#125;\tbs\end&#123;minipage&#125;&#125;</span><br><span class="line">\begin&#123;minipage&#125;[t]&#123;\textwidth-6\wot&#125; &#123;\heiti \wns #1 &#125; #2 \end&#123;minipage&#125; &#125;</span><br><span class="line">\makeatletter</span><br><span class="line">\zref@newprop&#123;totalsections&#125;[3]&#123;\arabic&#123;ns&#125;&#125;</span><br><span class="line">\zref@addprop&#123;LastPage&#125;&#123;totalsections&#125;</span><br><span class="line">\AtBeginDocument&#123;</span><br><span class="line">\setcounter&#123;ts&#125;&#123;\zref@extractdefault&#123;LastPage&#125;&#123;totalsections&#125;&#123;3&#125;&#125; &#125;</span><br><span class="line">\makeatother</span><br><span class="line">\linespread&#123;1.618&#125;</span><br><span class="line">\newcommand&#123;\D&#125;&#123;\,\mathrm&#123;d&#125;&#125;</span><br><span class="line">\newcommand&#123;\E&#125;&#123;\mathrm&#123;e&#125;&#125;</span><br><span class="line">\newcommand&#123;\dlim&#125;&#123;\displaystyle \lim &#125;</span><br><span class="line">\newcommand&#123;\dint&#125;&#123;\displaystyle \int &#125;</span><br><span class="line">\newcommand&#123;\sets&#125;[1]&#123;\&#123; #1 \&#125;&#125;</span><br><span class="line"></span><br><span class="line">\setCJKfamilyfont&#123;huawenxingkai&#125;&#123;华文行楷&#125; \newcommand*&#123;\xingkai&#125;&#123;\CJKfamily&#123;huawenxingkai&#125;&#125;%华文行楷</span><br><span class="line">\newcommand&#123;\dis&#125;&#123;\displaystyle&#125;</span><br><span class="line">\newcommand&#123;\Rank&#125;&#123;\mathrm&#123;Rank&#125;\mspace&#123;1mu&#125;&#125;</span><br><span class="line">\newcommand&#123;\Sign&#125;&#123;\mathrm&#123;Sign&#125;\mspace&#123;1mu&#125;&#125;</span><br><span class="line">\newcommand&#123;\rd&#125;&#123;\mspace&#123;1mu&#125;\mathrm&#123;d&#125;&#125;</span><br><span class="line">\newcommand&#123;\diag&#125;&#123;\mathrm&#123;diag&#125;\mspace&#123;1mu&#125;&#125;</span><br><span class="line">\newcommand&#123;\tr&#125;&#123;\mathrm&#123;tr&#125;\mspace&#123;1mu&#125;&#125;</span><br><span class="line">\newcommand&#123;\var&#125;&#123;\mathrm&#123;var&#125;&#125;</span><br><span class="line">\renewcommand&#123;\Re&#125;&#123;\operatorname&#123;Re&#125;&#125;</span><br><span class="line">\renewcommand&#123;\Im&#125;&#123;\operatorname&#123;Im&#125;&#125;</span><br><span class="line">\def\sgn&#123;\mathop&#123;\rm sgn&#125;&#125;</span><br><span class="line"></span><br><span class="line">%试卷头开始</span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">%试卷标题开始</span><br><span class="line">\begin&#123;center&#125;\vspace&#123;3mm&#125;</span><br><span class="line">      &#123;\xingkai \Large 第十届全国大学生数学竞赛试题&#125;\\[0.8mm]</span><br><span class="line">      &#123; $\left(\text&#123;非数学类, 2018年10月27日&#125;\right)$&#125;\\</span><br><span class="line">\end&#123;center&#125;</span><br><span class="line"></span><br><span class="line">%试卷标题结束</span><br><span class="line"></span><br><span class="line">%输出&quot;绝密&quot;字样</span><br><span class="line">&#123;\vspace&#123;-1.3mm&#125;\heiti 绝密$\bigstar$启用前&#125;\\[-4\bigskipamount]\\[-12mm]</span><br><span class="line">\begin&#123;center&#125;</span><br><span class="line">\vspace*&#123;2mm&#125;</span><br><span class="line">(16数学$-$胡八一)\\[3mm]</span><br><span class="line"> &#123;考试形式：\underline&#123;~闭卷~&#125;~\hspace&#123;2mm&#125;考试时间：\underline&#123;~~150~~&#125;分钟~\hspace&#123;2mm&#125;满分：~\underline&#123;~~100~~&#125;~分&#125;\\</span><br><span class="line"></span><br><span class="line">%根据大题数目自动生成计分总表</span><br><span class="line">\newcounter&#123;tc&#125;</span><br><span class="line">\newcounter&#123;tcsr&#125;</span><br><span class="line">\setcounter&#123;tc&#125;&#123;\value&#123;ts&#125;+3&#125;</span><br><span class="line">\setcounter&#123;tcsr&#125;&#123;\value&#123;tc&#125;-1&#125;</span><br><span class="line">\arrayrulewidth=2\wol </span><br><span class="line"></span><br><span class="line">\vspace*&#123;3.5mm&#125;</span><br><span class="line">\begin&#123;tabular&#125;&#123;|m&#123;3em&#125;&lt;&#123;\centering&#125;|*&#123;11&#125;&#123;m&#123;3.5em&#125;&lt;&#123;\centering&#125;|&#125;&#125;\hline</span><br><span class="line">         题~号 &amp; 一 &amp; 二 &amp; 三  &amp; 四 &amp; 五 &amp;六 &amp;七  &amp;总~~分 \\\hline</span><br><span class="line">		 满~分 &amp; 24 &amp; 8 &amp; 14  &amp; 12 &amp; 14  &amp;14 &amp;14 &amp;100    \\\hline</span><br><span class="line">	 	 得~分 &amp;    &amp;   &amp;     &amp;    &amp;     &amp;   &amp;  &amp;\rule&#123;0pt&#125;&#123;8mm&#125; \\\hline</span><br><span class="line">	\end&#123;tabular&#125;</span><br><span class="line">	\\\vspace*&#123;-1.5mm&#125;</span><br><span class="line">	\begin&#123;equation*&#125;</span><br><span class="line">	\begin&#123;aligned&#125;</span><br><span class="line">	\mbox&#123;注意：&#125;</span><br><span class="line">	&amp;1.\,\mbox&#123;所有答题都须写在试卷密封线右边,写在其他纸上一律无效&#125;.\hspace&#123;12.0cm&#125;\\</span><br><span class="line">	&amp;2.\,\mbox&#123;密封线左边请勿答题,密封线外不得有姓名及相关标记&#125;.\\</span><br><span class="line">	&amp;3.\,\mbox&#123;如答题空白不够,可写在当页背面,并标明题号&#125;.\\[-2mm]</span><br><span class="line">	\end&#123;aligned&#125;</span><br><span class="line">	\end&#123;equation*&#125;	</span><br><span class="line">\end&#123;center&#125;</span><br><span class="line"></span><br><span class="line">%试卷头结束</span><br><span class="line"></span><br><span class="line">\addvspace&#123;1\bigskipamount&#125;</span><br><span class="line"></span><br><span class="line">\ws&#123;\xingkai 填空题&#125;&#123;(\xingkai 本题满分24分，每题6分)\\&#125;\\\\</span><br><span class="line">\wq 设 $\alpha\in\left(0,1\right),\textrm&#123;则&#125;\displaystyle \lim_&#123;n\rightarrow +\infty&#125;\left(\left(n+1\right)^&#123;\alpha&#125;-n^&#123;\alpha&#125;\right)=$\underline&#123;0&#125;.\\</span><br><span class="line"></span><br><span class="line">\wq $\textrm&#123;若曲线&#125;y=f\left(x\right)\textrm&#123;是由&#125;\left\&#123;\begin&#123;array&#125;&#123;l&#125;</span><br><span class="line">x=t+\cos t\\</span><br><span class="line">e^y+ty+\sin t=1\\</span><br><span class="line">\end&#123;array&#125;\right.\textrm&#123;确定，则此曲线在&#125;t=0$ 对应点处的\\</span><br><span class="line">切线方程为\underline&#123;$y=1-x$&#125;.\\</span><br><span class="line"></span><br><span class="line">\wq $\displaystyle \int&#123;\displaystyle\frac&#123;\ln\left(1+\sqrt&#123;1+x^2&#125;\right)&#125;&#123;\left(1+x^2\right)^&#123;\frac&#123;3&#125;&#123;2&#125;&#125;&#125;&#125;dx=$\underline&#123;$\displaystyle \frac&#123;x&#125;&#123;\sqrt&#123;1+x^2&#125;&#125;\ln\left(x+\sqrt&#123;1+x^2&#125;\right)-\displaystyle \frac&#123;1&#125;&#123;2&#125;\ln\left(1+x^2\right)+C</span><br><span class="line">	$&#125;.\\</span><br><span class="line"></span><br><span class="line">\wq $\displaystyle\lim_&#123;x\rightarrow 0&#125;\displaystyle\frac&#123;1-\cos x\sqrt&#123;\cos 2x&#125;\sqrt[3]&#123;\cos 3x&#125;&#125;&#123;x^2&#125;=$\underline&#123;3&#125;.\\</span><br><span class="line">\newpage</span><br><span class="line">\ws &#123;\xingkai 解答题&#125;&#123;(\xingkai 本题满分8分)\\&#125;\\\\</span><br><span class="line">设函数$f(t)$在$t\ne 0$时一阶连续可导，且$f(1)=0$，求函数$f(x^2-y^2)$，使得曲线积分$\displaystyle \int_L&#123;y\left(2-f\left(x^2-y^2\right)\right)&#125;dx+xf\left(x^2-y^2\right)dy$</span><br><span class="line">与路径无关，其中$L$为任一不与直线$y=\pm x$相交的分段光滑闭曲线.</span><br><span class="line">\newpage</span><br><span class="line"></span><br><span class="line">\ws &#123;\xingkai 解答题&#125;&#123;(\xingkai 本题满分14分)\\&#125;\\\\</span><br><span class="line">设$f(x)$在区间$[0,1]$上连续，且$1\leqslant f\left(x\right)\leqslant 3$.证明：</span><br><span class="line">$$0\leqslant\int_0^1&#123;f\left(x\right)dx\int_0^1&#123;\frac&#123;1&#125;&#123;f\left(x\right)&#125;dx\leqslant\frac&#123;4&#125;&#123;3&#125;&#125;&#125;$$</span><br><span class="line">\newpage</span><br><span class="line"></span><br><span class="line">\ws &#123;\xingkai 解答题&#125;&#123;(\xingkai 本题满分12分)\\&#125;\\\\</span><br><span class="line">计算三重积分$\displaystyle\iiint\limits_&#123;\left(V\right)&#125;&#123;\left(x^2+y^2\right)&#125;dV$，其中$(V)$是由$x^2+y^2+\left(z-2\right)^2\geqslant 4$，$x^2+y^2+\left(z-1\right)^2\leqslant9$及$z\geqslant 0$所围成的空间图形.</span><br><span class="line">\newpage</span><br><span class="line"></span><br><span class="line">\ws &#123;\xingkai 解答题&#125;&#123;(\xingkai 本题满分14分)\\&#125;\\\\</span><br><span class="line">设$f(x,y)$在区域D内可微，且$\sqrt&#123;\left(\displaystyle\frac&#123;\partial f&#125;&#123;\partial x&#125;\right)^2+\left(\displaystyle\frac&#123;\partial f&#125;&#123;\partial y&#125;\right)^2&#125;\leqslant M$，$A\left(x_1,y_1\right),B\left(x_2,y_2\right)$是D内两点，线段AB包含在D内，证明：$f(x_1,y_1)-f(x_2,y_2)|\leqslant M|AB|$</span><br><span class="line"></span><br><span class="line">其中$|AB|$表示线段$AB$的长度.</span><br><span class="line">\newpage</span><br><span class="line"></span><br><span class="line">\ws &#123;\xingkai 解答题&#125;&#123;(\xingkai 本题满分14分)\\&#125;\\\\</span><br><span class="line">证明：对于连续函数$f(x)&gt;0$，有$\ln\int_0^1&#123;f\left(x\right)dx\geqslant\int_0^1&#123;\ln f\left(x\right)dx&#125;&#125;$</span><br><span class="line">\newpage</span><br><span class="line"></span><br><span class="line">\ws &#123;\xingkai 解答题&#125;&#123;(\xingkai 本题满分14分)\\&#125;\\\\</span><br><span class="line">已知$&#123;a_k&#125;$，$&#123;b_k&#125;$是正数数列，且$b_&#123;k+1&#125;-b_k\geqslant\delta &gt;0,k=1,2,\cdots $，$\delta$为一切常数，证明：若级数$\displaystyle\sum_&#123;k=1&#125;^&#123;+\infty&#125;&#123;a_k&#125;$收敛，则级数$\displaystyle\sum_&#123;k=1&#125;^&#123;+\infty&#125;&#123;\displaystyle\frac&#123;k\sqrt[k]&#123;\left(a_1a_2\cdots a_k\right)\left(b_1b_2\cdots b_k\right)&#125;&#125;&#123;b_&#123;k+1&#125;b_k&#125;&#125;$收敛.</span><br><span class="line"></span><br><span class="line">\mbox&#123;&#125;</span><br><span class="line">%试卷正文结束</span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    
+    
+    
+    
+      <div>
+    
+    <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+     
+      </div>
+      
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>分享知识，学会生活，坚持原创！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.png" alt="Hoganbin 微信支付">
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="Hoganbin 支付宝">
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    Hoganbin |  微信公众号【八一考研数学竞赛】
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://hoganbin.top/post/45733/" title="第十届全国大学生数学竞赛LaTeX模板">https://hoganbin.top/post/45733/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" rel="external nofollow" target="_blank">CC BY-NC-ND 4.0</a> 许可协议。转载请注明出处！
+  </li>
+  <li class="post-copyright-license">
+    并保留本声明和上方二维码。感谢您的阅读和支持！
+  </li>
+</ul>
+      </div>
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/LaTeX/" rel="tag"># LaTeX</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/post/38788/" rel="next" title="经典积分例选">
+                <i class="fa fa-chevron-left"></i> 经典积分例选
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/post/20036/" rel="prev" title="八一讲解matlab的完整教程">
+                八一讲解matlab的完整教程 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+<span class="jiathis_txt">分享到：</span>
+<a class="jiathis_button_fav">收藏夹</a>
+<a class="jiathis_button_copy">复制网址</a>
+<a class="jiathis_button_email">邮件</a>
+<a class="jiathis_button_weixin">微信</a>
+<a class="jiathis_button_qzone">QQ空间</a>
+<a class="jiathis_button_tqq">腾讯微博</a>
+<a class="jiathis_button_douban">豆瓣</a>
+<a class="jiathis_button_share">一键分享</a>
+
+<a href="http://www.jiathis.com/share?uid=2140465" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
+<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript">
+var jiathis_config={
+  data_track_clickback:true,
+  summary:"",
+  shortUrl:false,
+  hideMore:false
+}
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+    <div class="comments" id="comments">
+      <div id="uyan_frame"></div>
+    </div>
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/avatar.png" alt="Hoganbin">
+            
+              <p class="site-author-name" itemprop="name">Hoganbin</p>
+              <p class="site-description motion-element" itemprop="description">既然选择了远方，又何惧风雨兼程</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">27</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">16</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">20</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/hoganbin" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.zhihu.com/people/hoganbin/activities" target="_blank" title="Zhihu">
+                      
+                        <i class="fa fa-fw fa-align-justify"></i>Zhihu</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://math.stackexchange.com/" target="_blank" title="MSE">
+                      
+                        <i class="fa fa-fw fa-map"></i>MSE</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://outlook.live.com/mail/inbox" target="_blank" title="Mail">
+                      
+                        <i class="fa fa-fw fa-envelope-square"></i>Mail</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://tool.hoganbin.top/" target="_blank" title="tool">
+                      
+                        <i class="fa fa-fw fa-crosshairs"></i>tool</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://weibo.com/5231684748/profile?topnav=1&wvr=6&is_all=1" target="_blank" title="Weibo">
+                      
+                        <i class="fa fa-fw fa-weibo"></i>Weibo</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-globe"></i>
+                友情链接
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://www.ruanyifeng.com/home.html" title="阮一峰" target="_blank">阮一峰</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://www.yinwang.org/" title="王银" target="_blank">王银</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://cherryblog.site/" title="Cherryblog" target="_blank">Cherryblog</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://www.wmathor.com/" title="Wmathor" target="_blank">Wmathor</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://blog.icyuyan.net/" title="独孤伶俜的博客" target="_blank">独孤伶俜的博客</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://afeiai.cn/" title="小罗的博客" target="_blank">小罗的博客</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://www.dotcpp.com/" title="C语言网" target="_blank">C语言网</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://io.backrunner.top/" title="技术空间" target="_blank">技术空间</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+          <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=254359&auto=0&height=66"></iframe>
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; 
+
+<span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Hoganbin</span>
+ 
+ <span class="post-meta-divider">|</span>
+<span id="sitetime"> <br></span>
+<script language="javascript">
+  function siteTime(){
+    window.setTimeout("siteTime()", 1000);
+    var seconds = 1000
+    var minutes = seconds * 60
+    var hours = minutes * 60
+    var days = hours * 24
+    var years = days * 365
+    var today = new Date()
+    var todayYear = today.getFullYear()
+    var todayMonth = today.getMonth()
+    var todayDate = today.getDate()
+    var todayHour = today.getHours()
+    var todayMinute = today.getMinutes()
+    var todaySecond = today.getSeconds()
+    var t1 = Date.UTC(2018,3,13,11,00,00)
+    var t2 = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond)
+    var diff = t2-t1
+    var diffYears = Math.floor(diff/years)
+    var diffDays = Math.floor((diff/days)-diffYears*365)
+    var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours)
+    var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes)
+    var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds)
+    document.getElementById("sitetime").innerHTML=" 本站已运行"+diffYears+" 年 "+diffDays+" 天 "+diffHours+" 小时 "+diffMinutes+" 分钟 "+diffSeconds+" 秒<br>"
+  }
+  siteTime()
+
+</script>
+
+
+ <div class="footer-custom">你看得到我打在屏幕上的字，却看不到我落在键盘上的泪</div>
+
+
+<div class="busuanzi-count">
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv" title="访问人数"><i class="fa fa-user"></i><span class="busuanzi-value" id="busuanzi_value_site_uv">&nbsp;</span>人次</span>
+  
+    <span title="总字数"> <i class="fa fa-edit"></i>&ensp;<span class="post-count">博客全站共34.3k字</span>
+    
+    <span class="post-meta-divider">|</span>
+    <span class="site-pv" title="总访问量"><i class="fa fa-eye"></i><span class="busuanzi-value" id="busuanzi_value_site_pv">&nbsp;</span>次</span>
+  
+</span></div>
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <span class="post-meta-divider"></span>
+
+
+
+
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<!--  
+    <span class="site-uv">
+      <i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      
+    </span>
+
+  
+  -->
+</div>
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+    
+
+    
+      <!-- UY BEGIN -->
+      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2161245"></script>
+      <!-- UY END -->
+    
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'GwtyLTw1Vqh9Y97KIRMNJBrl-gzGzoHsz',
+        appKey: 'cibt8H2bgkTOqn1pUH5v0WxQ',
+        placeholder: '说点什么吗？',
+        avatar:'mm',
+        guest_info:['nick','mail','link'] ,// 评论只需要提供昵称
+        pageSize:'10' || 10,
+    });
+  </script>
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+  
+
+  
+
+  
+
+  <!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/love.js"></script>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</html>
+
